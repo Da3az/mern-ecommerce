@@ -64,5 +64,6 @@
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.5.1"
-  }
+  },
+  "homepage":"https://mern-ecommerce-ts-app.herokuapp.com/"
 }
