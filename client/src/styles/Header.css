@@ -1,0 +1,58 @@
+.header{
+  box-shadow: 0px 1px 10px 2px #0000009e;
+  position: sticky;
+  z-index: 5;
+  top: 0px;
+
+}
+
+.header > div {
+  z-index: 0 !important;
+}
+
+.header .title-left span,.header .title-left svg {
+  color:white !important;
+}
+
+.title{
+  background-color:#131515 !important;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  
+}
+
+.title h1 {
+  font-family: 'Bungee Inline';
+  font-style: italic;
+}
+
+.title .logo{
+  cursor:pointer;
+}
+
+.title .logo svg{
+  height:50px;
+  width:50px;
+  padding:15px
+}
+
+.menu { 
+  margin-top: 5px;
+}
+
+.icon-menu {
+  display: none;
+}
+
+@media (max-width: 750px) {
+  .menu {
+    display: none;
+  }
+
+  .icon-menu {
+    display: block;
+  }
+}
+
+
