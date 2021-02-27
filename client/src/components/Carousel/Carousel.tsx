@@ -7,10 +7,10 @@ import '@styles/Carousel.css';
 
 const Carousel = () => {
   const [images] = useState([
-      'http://bpc.h-cdn.co/assets/17/16/1492525968-best-smartphones-2017.jpg',
-      'https://www.unlockplus.com/blog/wp-content/uploads/2019/01/Safely-buy-Smartphones.jpg',
-      'https://i.ytimg.com/vi/97cDu5Le0eM/maxresdefault.jpg',
-      'http://cdn.mos.cms.futurecdn.net/9jLFvFSzCSZhE33dTLA9RJ-1200-80.jpg'
+      'img/carousel1.jpg',
+      'img/carousel2.jpg',
+      'img/carousel3.jpg',
+      'img/carousel4.jpg'
       
   ])
   const [selected,setSelected] = useState(0)

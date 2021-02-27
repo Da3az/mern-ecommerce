@@ -10,7 +10,7 @@ import StripeCheckout from 'react-stripe-checkout'
 import {ToastContainer,toast} from 'react-toastify'
 import axios from 'axios';
 import 'react-toastify/dist/ReactToastify.css';
-
+import CancelIcon from '@material-ui/icons/Cancel';
 
 
 
@@ -115,15 +115,11 @@ const CheckoutModal: React.FC<ModalProps> = ({ cart, isOpen, setActiveModal, mak
       
       <div className="btns">
         <Button
-          className="btn"
+          className="btn checkout-modal-cancel"
           onClick={() => setActiveModal(null)}>
-          Cancel
+          <CancelIcon></CancelIcon>
         </Button>
-        <Button
-          className="btn"
-          onClick={makeOrder}>
-          Confirm
-        </Button>
+   
         <div className="subtotal">
                 {
                   cart!.length ?

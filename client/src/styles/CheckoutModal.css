@@ -12,6 +12,7 @@
   border: 1px solid white;
   border-radius: 5px;
   outline: none;
+  position: relative;
 }
 
 .checkout-modal .order {
@@ -68,6 +69,13 @@
 
 .checkout-modal .btns .btn {
   margin: 0 20px;
+}
+
+.checkout-modal-cancel{
+  position: absolute !important;
+  top: 0;
+  right: -20px;
+  color:red !important;
 }
 
 .subtotal{
