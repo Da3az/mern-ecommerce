@@ -36,6 +36,7 @@ Live demo on https://mern-ecommerce-ts-app.herokuapp.com/
 ### Steps:
 1. Clone repo on your local machine:
 ```
+git clone git@github.com:Da3az/mern-ecommerce.git
 ```
 2. Install server-side dependencies:
 ```
