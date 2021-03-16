@@ -3,7 +3,7 @@
 <img src="githubImg/ecommerce-phones.JPG"/>
 
 ## Description
-Ecommerce app built with MERN stack and using RESTful API design. Responsive front-end design done with Material-UI, Passport used for authentication, database hosted on mLab. Deployed on Heroku.
+Ecommerce app built with MERN stack and using RESTful API design. Responsive front-end design done with Material-UI, Passport used for authentication, database hosted on mongodb. Deployed on Heroku.
 
 You can get and view the list of all products from the API, register, add products to cart, remove specific product or empty entire cart, make order...
 Live demo on https://mern-ecommerce-ts-app.herokuapp.com/
